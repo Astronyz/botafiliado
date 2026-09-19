@@ -1,0 +1,2 @@
+# botafiliado
+bot de afiliado
