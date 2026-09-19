@@ -1,0 +1,9 @@
+services:
+  botafiliado:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_PATH: /app/data/botafiliado.sqlite
+    volumes:
+      - ./data:/app/data
